@@ -1,0 +1,32 @@
+.container {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
+}
+.rouge {
+    height: 100px;
+    background-color: #480202 ;
+    margin-bottom: 2px;
+}
+.bleue {
+    height: 200px;
+    background-color: #1d0247 ;
+    margin-bottom: 16px;
+}
+.violet {
+    height: 400px;
+    background-color: #470243 ;
+    margin-bottom: 8px;
+}   
+.gris {
+    background-color: #373334;
+    height: 50px;
+    margin-bottom: 2px;
+}
+    .or {
+        height: 100px;
+        background-color: #b5a72c ;
+        /* margin-bottom: 4px; */
+    }

@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    margin: auto;
+    padding-top: 1%;
+    /* position: static; */
+    justify-content: center;
+}
+
+.bloc {
+    height: 70px;
+    /* background-color : #d9d9d9; */
+    display: flex;
+    border: 1px solid;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.bloc1 {
+    height:250px;
+    /* background-color : #d9d9d9; */
+    display: flex;
+    border: 1px solid;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom : 10px;
+}
+   
+.bloc2 {
+    height: 200px;
+    /* background-color : #d9d9d9; */
+    display: flex;
+    border: 1px solid;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 1px;
+    margin-bottom: 10px;
+    
+}
+.sous-gris {
+    flex: 1 ;
+    background-color : #d9d9d9;
+    
+}
+
+.gris2 {
+    /* height: 85%; */
+    flex: 1 ;
+    background-color : #c3d9d0;
+    /* margin: 10px; */
+    /* display: flex; */
+    /* border: 1px solid; */
+}
+
+.rouge {
+    background-color : #a40000;
+    flex: 1;
+
+}
+
+.bleu {
+    background-color : #009aa4;
+    flex: 1;
+}
+.cean {
+    border-radius: 20px;
+    flex: 3;
+    background-color : #c3e14f;
+}
+.sky {
+    border-radius: 20px;
+    flex: 2;
+    background-color : #4e9bdf;
+}
+
+.multicolor {
+    height: 80px;
+    /* background-color : #d9d9d9; */
+    display: flex;
+    border: 1px solid;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}

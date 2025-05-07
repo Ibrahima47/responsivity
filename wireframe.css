@@ -1,0 +1,165 @@
+.conteneur {
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    height: calc(110vh + 10vw);
+    width: 100%;
+    margin: auto;
+    border: 1px solid gray;
+
+}
+
+.partie1 {
+    flex: 0.25;  
+    display : flex;  
+    gap: 35%;
+    padding: 5px;
+    margin: auto 1% auto 4%;
+    
+}
+
+.partie2 {
+    flex: 1;
+    display : flex;
+    flex-direction: column;
+    gap : 3px;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    padding: 3% 15% 5% 15%;
+}
+
+.partie3 {
+    flex: 4;
+    display : flex;
+    flex-direction: column;
+    gap : 3px;
+    padding: 1px 15%;
+    
+}
+
+.ecran1 {
+    flex: 1;
+    background-color: #815d5d;
+    margin: 0 15%;
+}
+
+.ecran2 {
+    flex: 1;
+    display: flex;
+    flex-direction : column;
+    border: gray 1px solid;
+    padding : 1%;
+    gap : 2%
+}
+
+.ecran3 {
+    flex: 1;
+    display: flex;
+    flex-direction : column;
+    border: gray 1px solid;
+    padding : 1%;
+    gap : 2%}
+
+.ecran4 {
+    flex: 1;
+    display: flex;
+    gap: 2%;
+    flex-direction: column;
+    padding: 1% 5%;
+    border: gray 1px solid;
+}
+
+.partie4 {
+    flex: 0.1;
+    background-color: black;
+    
+}
+
+
+.p1-elmt1 {
+    flex: 1;
+        background-color: #d9d9d9;
+}
+
+.p1-elmt2 {
+    flex: 2;
+    background-color: #f05050;
+}
+
+.p2-elmt1 {
+    flex: 3;
+    background-color: #36552b;
+}
+
+.p2-elmt2 {
+    flex: 1;
+    background-color: #347cea;
+}
+
+.ecran2-head {
+    flex: 0.25;
+    background-color : #3fae6c;
+    margin : 0 10%
+}
+
+.ecran2-main {
+    flex: 1;
+    display : flex;
+    gap: 5%;
+    padding: 1%;
+    border : 1px solid gray;
+    
+}
+.ecran3-head {
+    flex: 0.1;
+    background-color : #3fae6c;
+    margin : 0 10%
+}
+
+.ecran3-main {
+    flex: 1;
+    display : flex;
+    gap: 5%;
+    padding: 1%;
+    border : 1px solid gray;
+}
+
+.e4-p1 {
+    flex: 0.1;
+    background-color: #6c091d;
+    border : 1px solid gray;
+}
+
+.e4-p2 {
+
+    flex: 1;
+    display : flex;
+    gap : 3%;
+}
+
+
+.e2-m-1 {
+    flex: 0.5;
+    background-color : #1a2565;
+}
+
+.e2-m-2 {
+    flex: 1;
+    background-color : #9e1f8a;
+    margin : 2vh 0px;
+}
+.e3-m-2 {
+    flex: 0.5;
+    background-color : #1a2565;
+}
+
+.e3-m-1 {
+    flex: 1;
+    background-color : #9e1f8a;
+    margin : 2vh 0px;
+}
+
+.e4-p2-col {
+    flex: 1;
+    background-color:  #d9d9d9;
+}

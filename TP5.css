@@ -1,0 +1,195 @@
+.h1-element1{
+    flex : 1;
+    background-color: #d9d9d9;    
+    margin-right: 5px;
+}
+
+.h1-element2{
+    flex : 2;
+    background-color: #fddc37;
+}
+
+.h1-element3{
+    flex : 1;
+    background-color: #d9d9d9;
+}
+
+.h3-element1{
+    flex : 3;
+    background-color: #0e3a39;
+}
+
+.h3-element2{
+    flex : 1;
+    background-color: #13958d;
+}
+
+.h3-element3{
+    flex : 1;
+    background-color: #13958d;
+}
+
+.h3-element4{
+    flex : 1;
+    background-color: #13958d;
+    
+}
+
+.con{
+    flex: 2;
+    display: flex;
+    gap: 5px;
+
+}
+
+.bloc-bleu{
+    flex: 1;
+    display: flex;
+    gap: 5px;
+}
+
+.bleu-cellulle{
+    flex: 1;
+    background-color: #2144c4;
+}
+
+.bloc-violet{
+    flex: 1;
+    display: flex;
+    gap: 5px;
+}
+
+.violet-cellulle{
+    flex: 1;
+    background-color: #c420b4;
+}
+
+.bloc-rouge{
+    flex: 1;
+    display: flex;
+    gap: 5px;
+}
+
+.jaune-cellulle{
+    flex : 1;
+    background-color : #c29f1f   
+}
+
+.bloc-jaune{
+    flex: 1;
+    display: flex;
+    gap: 5px;
+}
+
+.rouge-cellulle{
+    flex : 1;
+    background-color : #c32033
+}
+
+.f-colonne1{
+    flex: 2;
+    background-color: #670708;
+    border-radius: 10px;
+}
+
+.f-colonne2{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+.conteneur{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 1px 5px 1px;
+    height: 75vh;
+    width: 65vw;
+    margin: auto;
+    gap : 5px;
+}
+
+.hrow1{
+    flex: 1;
+    display: flex;
+    gap: 15px;
+}
+
+.hrow2{
+    flex: 1;
+    background-color: #269513;
+}
+
+.hrow3{
+    flex: 1;
+    display: flex;
+    gap: 35%;
+}
+
+.black{
+    flex: 1;
+    background-color: #000000;
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+.f-c-r2-cell1{
+    flex: 14;
+    background-color: #e8090a;
+}
+
+.f-c-r2-cell0{
+    border-radius : 5px;
+    flex: 2;
+    background-color: #d9d9d9;
+    border: 1px solid;
+}
+
+body{
+    background-color: rgba(56, 54, 54, 0.658);
+}
+header {
+        flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+main {
+        flex: 6;
+        display: flex;
+        flex-direction: column;
+        background-color: #e2e2e2;
+        gap : 5px;
+        padding: 5px;
+
+}
+
+footer {
+    padding: 2%;
+    flex: 1;
+    background-color: #e69292;
+    display: flex;
+    gap: 4%;
+}
+
+.f-c-row1 {
+    flex: 1;
+    display : flex;
+    background-color : #d9ea11;
+    padding: 3px 5px;
+    gap: 2%;
+    border-radius: 5px;
+}
+
+.f-c-row2 {
+    border-radius: 10px;
+    flex: 1;
+    display : flex;
+    background-color : #12eac3;
+    gap: 2%;
+    padding: 5px;
+}

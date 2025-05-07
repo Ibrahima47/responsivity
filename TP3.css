@@ -1,0 +1,76 @@
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding : 5px 5px;
+    border: 2px solid;
+    margin : 10px;
+    height: 70vh;
+    width: 75vw;
+    margin: auto;
+    gap: 10px;
+    
+}
+body{
+
+    background-color: black;
+}
+
+.row1 {
+    background-color : #ed292a;
+    flex : 0.8;
+
+}   
+    
+.row2 {
+    background-color : #eeab29;
+        flex : 0.5;
+}
+
+.row3 {
+        flex : 6;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 15px auto;
+
+}
+
+.col1 {
+    display: flex;
+    flex: 1;
+}
+
+.elmt1 {
+    flex: 1;
+    background-color : #a6bf0c
+    
+}
+
+.elmt2 {
+    flex: 1;
+    background-color : #0d1fbf
+    
+}
+
+.elmt3 {
+    flex: 1;
+    background-color : #920dc0
+    
+}
+
+.elmt4 {
+    flex: 1;
+    background-color : #bf0d0d
+    
+}
+
+.col2 {
+    display: flex;
+    flex: 1;
+}
+
+.row4 {
+    background-color : #ee2a7c;
+    flex : 1;
+}

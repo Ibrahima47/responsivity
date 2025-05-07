@@ -1,0 +1,41 @@
+.portail{
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    margin : 5vh auto;
+    justify-content: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.lien{
+    flex: 1;
+    background-color: black;
+    color : orangered ;
+    box-shadow: -1px -2px 9px 2px orangered;
+    text-align: center;
+    padding: 5%;
+    border-radius: 15px;
+    word-wrap: break-word;
+    font-weight: bold;
+    text-shadow: 1px 2px gold;
+}
+.lien:hover{
+    flex: 1;
+    background-color: orangered;
+    color : black ;
+    box-shadow: 1px 2px 9px 2px black;
+    text-align: center;
+    padding: 5%;
+    border-radius: 15px;
+    word-wrap: break-word;
+    font-weight: bold;
+    text-shadow: 1px 2px 6px black;
+}
